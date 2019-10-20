@@ -17,10 +17,12 @@ from collections import namedtuple, OrderedDict
 
 # Add more class labels as needed, make sure to start at 1
 def class_text_to_int(row_label):
-    if row_label == 'cheeseburger_475cal':
+    if row_label == 'Burger':
         return 1
-    if row_label == 'fries_350cal':
-        return 2 
+    if row_label == 'Samosa':
+        return 2
+    if row_label == 'Thumb':
+        return 3
     else:
         None
 
